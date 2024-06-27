@@ -2,13 +2,10 @@
   "name": "flights_api",
   "version": "1.0.0",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "server": "nodemon server.js"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@duffel/api": "^2.10.0",
     "bcrypt": "^5.1.1",
@@ -21,8 +18,7 @@
     "mongodb": "^4.0.0",
     "mongoose": "^6.0.0",
     "nodemailer": "^6.9.13",
-    "nodemon": "^3.1.0",
-    "stripe": "^15.6.0"
-  },
-  "type": "module"
+    "stripe": "^15.6.0",
+    "nodemon": "^3.1.0"
+  }
 }
